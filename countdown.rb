@@ -1,11 +1,12 @@
 #write your code here
 
 
-  def countdown(SECONDS)
-     while SECONDS > 0
-        SECONDS -= 1
-        puts "{Seconds} left"
-    end
+  def countdown
+     x = 1
+      while x < 10
+        puts "#{x} is less than 10"
+          x += 1
+      end
   end
  
 
